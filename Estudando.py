@@ -1,9 +1,11 @@
 ###################################### DESAFIOS #######################################
 
 
-#Faça um programa que leia um numero inteiro e mostre na tela o seu sucessor e seu antecessor.
+#Crie um algoritimo que leia um numero e mostre o seu dobro triplo e raiz quadrada.
 
 n1 = int(input('Digite um numero: '))
-suc = n1 + 1
-ant = n1 - 1
-print(f'O sucessor de {n1} é {suc}, eo antecessor é {ant}')
+D = n1 * 2
+T = n1 * 3
+R = n1 ** (1/2)
+print(f'O dobro de {n1} é {D}, o Triplo é {T} e a raiz quadrada é {R:.4}')
+
