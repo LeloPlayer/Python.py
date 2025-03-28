@@ -2,5 +2,5 @@
 Estudando Python
 
 Desafios curso em video: 
-Calculadora de Desconto
-Este projeto é uma simples calculadora de desconto que aplica um desconto de 5% ao valor de um produto. O usuário insere o valor do produto, e o programa calcula e exibe o valor final após o desconto.
+Aumento de Salário
+Este projeto contém um script Python simples que calcula o aumento de um salário com base em um percentual fixo de 15%. O usuario digita seu salario e logo apos é exibido o salario com o aumento de 15%.

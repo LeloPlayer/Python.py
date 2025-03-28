@@ -1,20 +1,19 @@
 ###################################### DESAFIOS #######################################
 
 
-#Faça um algoritmo que leia o preço de um produto e mostre seu novo preço, com 5% de desconto.
+#Faça um algoritimo que leia o salario de um funcionario e mostre seu novo salario, com 15% de aumento.
 
-print('PROMOÇÃO')
+print('AUMENTO DO SALARIO')
 
-#Solicita o valor do produto ao usuário
-n1 = float(input('Digite o valor do produto: '))
+# Entrada do salário atual
+S = float(input('Digite seu salário atual: '))
 
-#Calcula o valor do produto com desconto de 5%
-desconto = n1 * 0.05
-valor_com_desconto = n1 - desconto
+# Cálculo do aumento de 15%
+A = S + (S * 0.15)
 
-#O resultado
-print(f'O desconto é de R$ {desconto:.2f}')
-print(f'Com o desconto, o produto sairá por R$ {valor_com_desconto:.2f}')
+# Saída do novo salário
+print(f'O seu novo salário será de: R${A:.2f}')
+
 
 
 
