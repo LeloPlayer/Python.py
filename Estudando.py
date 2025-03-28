@@ -1,15 +1,22 @@
 ###################################### DESAFIOS #######################################
 
 
-#Faça um programa que leia um numero inteiro qualquer e mostre na tela a sua tabuada.
+#Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos dolares ela pode comprar. 1 DOLAR = R$5.75 na data desse commit.
 
-print('TABUADA')
+print('CARTEIRA')
 
-n1 = int(input('Digite um numero: '))
+# Solicita ao usuário a quantia de dinheiro que ele possui
+n1 = float(input('Quanto dinheiro você tem? R$'))
 
-print(f'TABUADA DO {n1}:')
+# Taxa de câmbio (reais por dólar)
+taxa_cambio = 5.75
 
-for i in range(1, 11):
-    print(f'{n1} x {i} = {n1 * i}')
+# Calcula quantos dólares podem ser comprados
+dolares = n1 / taxa_cambio
+
+# Imprime o resultado
+print(f'Você poderá comprar {dolares:.2f} dólares.')
+
+
 
 
