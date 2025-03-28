@@ -1,4 +1,6 @@
 # Python.py
 Estudando Python
 
-Desafios curso em video: Este projeto é um programa simples em Python que realiza a conversao de reais para dolar, primeiro o usuario digita a quantidade de reais e logo em seguida aparece quantos dolares ele consegue comprar com a quantidade que ele tem em reais (dolar na data desse commit: R$ 5,75) 
+Desafios curso em video: 
+Calculadora de Tinta para Paredes
+Este projeto é uma ferramenta simples e prática para calcular a quantidade de tinta necessária para pintar uma parede. Ele considera a largura e a altura da parede e fornece uma estimativa da quantidade de tinta necessária com base em uma cobertura padrão.

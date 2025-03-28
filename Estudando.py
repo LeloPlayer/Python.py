@@ -1,21 +1,25 @@
 ###################################### DESAFIOS #######################################
 
 
-#Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos dolares ela pode comprar. 1 DOLAR = R$5.75 na data desse commit.
+#Faça um programa que leia a largura ea altura de uma parede em metros, calcule a sua area e a quantidade de tinta necessaria para pinta-la, sabendo que cada litro de tinta pinta uma area de 2m**2.
 
-print('CARTEIRA')
+print('PAREDE')
 
-# Solicita ao usuário a quantia de dinheiro que ele possui
-n1 = float(input('Quanto dinheiro você tem? R$'))
+# Entrada de dados
+largura = float(input('Digite a largura dessa parede (em metros): '))
+altura = float(input('Digite a altura dessa parede (em metros): '))
 
-# Taxa de câmbio (reais por dólar)
-taxa_cambio = 5.75
+# Cálculo da área
+area = largura * altura
 
-# Calcula quantos dólares podem ser comprados
-dolares = n1 / taxa_cambio
+# Cálculo da tinta necessária (considerando 1 litro de tinta cobre 2 metros quadrados)
+litros_por_metro_quadrado = 0.5  
+tinta_necessaria = area * litros_por_metro_quadrado
 
-# Imprime o resultado
-print(f'Você poderá comprar {dolares:.2f} dólares.')
+print(f'A área da parede é de {area} metros quadrados.')
+print(f'Serão necessários aproximadamente {tinta_necessaria:.2f} litros de tinta para pintar esta parede.')
+
+
 
 
 
