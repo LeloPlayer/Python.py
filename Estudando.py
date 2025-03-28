@@ -1,23 +1,22 @@
 ###################################### DESAFIOS #######################################
 
 
-#Faça um programa que leia a largura ea altura de uma parede em metros, calcule a sua area e a quantidade de tinta necessaria para pinta-la, sabendo que cada litro de tinta pinta uma area de 2m**2.
+#Faça um algoritmo que leia o preço de um produto e mostre seu novo preço, com 5% de desconto.
 
-print('PAREDE')
+print('PROMOÇÃO')
 
-# Entrada de dados
-largura = float(input('Digite a largura dessa parede (em metros): '))
-altura = float(input('Digite a altura dessa parede (em metros): '))
+#Solicita o valor do produto ao usuário
+n1 = float(input('Digite o valor do produto: '))
 
-# Cálculo da área
-area = largura * altura
+#Calcula o valor do produto com desconto de 5%
+desconto = n1 * 0.05
+valor_com_desconto = n1 - desconto
 
-# Cálculo da tinta necessária (considerando 1 litro de tinta cobre 2 metros quadrados)
-litros_por_metro_quadrado = 0.5  
-tinta_necessaria = area * litros_por_metro_quadrado
+#O resultado
+print(f'O desconto é de R$ {desconto:.2f}')
+print(f'Com o desconto, o produto sairá por R$ {valor_com_desconto:.2f}')
 
-print(f'A área da parede é de {area} metros quadrados.')
-print(f'Serão necessários aproximadamente {tinta_necessaria:.2f} litros de tinta para pintar esta parede.')
+
 
 
 
