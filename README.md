@@ -1,4 +1,4 @@
 # Python.py
 Estudando Python
 
-Desafios curso em video: Nesse codigo o usuario digita um valor e logo em seguida é exibido o dobro do valor que ele escolheu, o triplo ea raiz quadrada.
+Desafios curso em video: Nesse codigo o usuario digita a primeira nota academica logo apos digita a segunda e assim a terceira, e é exibido ao usuario a media entre as notas.
