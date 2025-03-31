@@ -1,25 +1,11 @@
 #################################### DESAFIOS #########################################
 
-# Crie um programa que leia um numero Real qualquer pelo teclado e mostre na tela sua porçao inteira
-# Exemplo: Digite 6.127 o numero tem que apareçer a parte inteira 6.
+#Faça um programa que leia o comprimento do cateto oposto e do cateto adjacente de um triangulo retangulo, calcule e mostre o comprimeto da hipotenusa.
 
-#from math import trunc
+from math import hypot
+cateopo = float(input('Digite o comprimento do cateto oposto: ')             )
+cateadja = float(input('Digite o comprimento do cateto adjacente: '))
 
-#num = float(input('Digite um numero Real: '))
-#print('A parte inteira do numero {} é {}'.format(num, trunc(num)))
+hipo = hypot (cateopo, cateadja)
 
-
-
-num = float(input('Digite um valor: '))
-print('O valor digitado foi {} e a o seu valor inteiro é igual a {}'.format(num, int(num)))
-
-
-
-
-
-
-
-
-
-
-
+print('A hipotenusa vai medir {:.2f}'.format(hipo))
