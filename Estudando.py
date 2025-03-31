@@ -1,10 +1,10 @@
 #############################################################################
 
-import random
+import emoji
 
-num =  random.randint(1,10)
+print(emoji.emojize("Ola, mundo :sunglasses: ", use_aliases=True))
 
-print(num)
+
 
 
 
