@@ -2,5 +2,5 @@
 Estudando Python
 
 Desafios curso em video: 
-Aumento de Salário
-Este projeto contém um script Python simples que calcula o aumento de um salário com base em um percentual fixo de 15%. O usuario digita seu salario e logo apos é exibido o salario com o aumento de 15%.
+Graus Celsius e Fahrenheit
+Este projeto contém um script Python simples que o usuario digita o quantidade de graus Celcius °C e é exibida a quantidade de graus em Fahrenheit °F.

@@ -1,18 +1,15 @@
 ###################################### DESAFIOS #######################################
 
 
-#Faça um algoritimo que leia o salario de um funcionario e mostre seu novo salario, com 15% de aumento.
+#Escreva um programa que converta uma temperatura digitada em °C e converta em °F.
 
-print('AUMENTO DO SALARIO')
+C= float(input('Informe a temperatura em °C: '))
+F= 9 * C / 5 + 32
 
-# Entrada do salário atual
-S = float(input('Digite seu salário atual: '))
+print('A temperatura de {0} °C corresponde a {1} °F!!'.format(C, F))
 
-# Cálculo do aumento de 15%
-A = S + (S * 0.15)
 
-# Saída do novo salário
-print(f'O seu novo salário será de: R${A:.2f}')
+
 
 
 
