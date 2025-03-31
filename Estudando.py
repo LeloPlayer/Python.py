@@ -1,11 +1,10 @@
 #############################################################################
 
-import math
-num = int(input('Digite um numero: '))
+import random
 
-raiz = math.sqrt(num)
+num =  random.randint(1,10)
 
-print('A raiz de {} é igual a {}'.format(num, math.ceil(raiz)))
+print(num)
 
 
 
