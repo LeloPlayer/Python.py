@@ -1,11 +1,15 @@
 #################################### DESAFIOS #########################################
 
-#Faça um programa que leia o comprimento do cateto oposto e do cateto adjacente de um triangulo retangulo, calcule e mostre o comprimeto da hipotenusa.
 
-from math import hypot
-cateopo = float(input('Digite o comprimento do cateto oposto: ')             )
-cateadja = float(input('Digite o comprimento do cateto adjacente: '))
+# Faça um programa que leia um angulo qualquer e mostre na tela o valor do seno, cosseno e tangente desse Ângulo.
 
-hipo = hypot (cateopo, cateadja)
+from math import radians, sin, cos, tan
+angu = float(input('Digite o angulo que voçe deseja: '))
+seno = sin(radians(angu))
+print('O angulo de {} tem o SENO de {:.2f}'.format(angu, seno))
 
-print('A hipotenusa vai medir {:.2f}'.format(hipo))
+cosse = cos(radians(angu))
+print('O angulo de {} tem o COSSENO de {:.2f}'.format(angu, cosse))
+
+tange = tan(radians(angu))
+print('O angulo de {} tem a TANGENTE de {:.2f}'.format(angu, tange))
