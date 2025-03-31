@@ -2,5 +2,6 @@
 Estudando Python
 
 Desafios curso em video: 
-Graus Celsius e Fahrenheit
-Este projeto contém um script Python simples que o usuario digita o quantidade de graus Celcius °C e é exibida a quantidade de graus em Fahrenheit °F.
+Aluguel de carros
+
+Nesse desafio o usuario digita a quantidade de dias que ele alugou o veiculo, logo em seguida digita a quantidade de km's rodados, logo o programa exibe a o valor a qual o usuario vai que pagar pelo veiculo alugado.

@@ -1,13 +1,14 @@
 ###################################### DESAFIOS #######################################
 
 
-#Escreva um programa que converta uma temperatura digitada em °C e converta em °F.
+#Escreva um programa que pergunte a quantidade de Km percorridos por um carro alugado e a quantidade de dias pelos quais ele foi alugado. Calcule preço a pagar, sabendo que o carro R$ 60,00 por dia e R$ 0,15 por Km rodado
 
-C= float(input('Informe a temperatura em °C: '))
-F= 9 * C / 5 + 32
+dias = int(input('Quantos dias alugados? '))
+km = float(input('Quantos km rodados? '))
 
-print('A temperatura de {0} °C corresponde a {1} °F!!'.format(C, F))
+pago = (dias * 60) + (km * 0.15)
 
+print('O total a pagar é de R${:.2f}'.format(pago))
 
 
 
