@@ -3,4 +3,4 @@ Estudando Python
 
 Desafios curso em video:
 
-Seno, cosseno e tangente: Neste codigo o usuario digita o angulo desejado da equaçao e o terminal retorna os valores de SENO, COSSENO e TANGENTE em ordem. Neste algoritimo utilizei a biblioteca 'math' para fazer o calculo da equaçao.
+Sorteando um aluno: Neste codigo o usuario digita quatro alunos, o aluno é escolhido de forma aleatoria dentro de uma lista, por fim o terminal exibe o aluno escolhido. Neste algoritimo utilizei a biblioteca 'random' para a escolha do aluno, para a seleçao utilizei o metodo 'choice'.

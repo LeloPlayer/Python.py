@@ -1,15 +1,16 @@
 #################################### DESAFIOS #########################################
 
 
-# Faça um programa que leia um angulo qualquer e mostre na tela o valor do seno, cosseno e tangente desse Ângulo.
+# Um professor quer sortear um dos seus quatro alunos para apagar o quadro. Faça um programa que ajude ele, lendo o nome deles e escrevendo o nome do escolhido.
 
-from math import radians, sin, cos, tan
-angu = float(input('Digite o angulo que voçe deseja: '))
-seno = sin(radians(angu))
-print('O angulo de {} tem o SENO de {:.2f}'.format(angu, seno))
+from random import choice
+al1 = str(input('Primeiro aluno: '))
+al2 = str(input('Segundo aluno: '))
+al3 = str(input('Terceiro aluno: '))
+al4 = str(input('Quarto aluno: '))
 
-cosse = cos(radians(angu))
-print('O angulo de {} tem o COSSENO de {:.2f}'.format(angu, cosse))
+lista = [al1, al2, al3, al4]
+escolhido = choice(lista)
+print ('O aluno escolhido foi {}' .format(escolhido))
 
-tange = tan(radians(angu))
-print('O angulo de {} tem a TANGENTE de {:.2f}'.format(angu, tange))
+
