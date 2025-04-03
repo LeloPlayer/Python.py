@@ -1,17 +1,17 @@
 #######################################DESAFIOS!!###########################################
 
-#Seu nome tem...
+#Separador de digitos de um numero.
 
-nome = str(input('Digite seu nome completo: '))
+num = int(input('Digite um numero: '))
 
-print('Analisando seu nome...')
+u = num // 1 % 10
+d = num // 10 % 10
+c = num // 100 % 10
+m = num // 1000 % 10
 
-print('Seu nome em maiusculas é {} '.format(nome.upper()))
-print('Seu nome em minusculas é {}' .format(nome.lower()))
-print('Seu nome tem {} letras' .format(len(nome) - nome.count(' ')))
-
-separar = nome.split()
-print('Seu primeiro nome é {} e ele tem {} letras' .format(separar[0], len(separar[0])))
-
-
+print('Anlisando o numero {}'.format(num))
+print('Unidade: {}'.format(u))
+print('Dezena: {}'.format(d))
+print('Centena: {}'.format(c))
+print('Milhar: {}'.format(m))
 
