@@ -1,8 +1,12 @@
 # Python.py
 Estudando Python
 
-Desafios curso em video:
+Neste codigo utilizo alguns operadores de texto, str, que vao servir para manipular frases, textos e caracteres. Nesse codigo utilizei alguns dos operadores abaixo que estou aprendendo nesse modulo.
 
-Sorteando um aluno 2.0: Neste codigo o usuario digita quatro alunos, e dessa vez o objetivo é escolher a ordem de aprensentaçao dos alunos, logo apos os o usuario digitar os 5 nomes, é exibido em ordem aleatoria dos 5 alunos. Neste codigo utilizei o metodo 'shuffle' para embaralhar os 5 alunos na lista e apresenta-los de forma aleatoria.
+<<<<<<< HEAD
+Operações com String no Python:As principais operações que estou aprendendo nesse módulo são o Fatiamento de String, Análise com len(), count(), find(), transformações com replace(), upper(), lower(), capitalize(), title(), strip(), junção com join().
+=======
+Tocando uma musica??: Neste codigo utilizamos a biblioteca do pygame, utilizada para criaçao de games... para usar essa biblioteca é necessario instalar ela em seu dispositivo. O algoritimo toca a musica "Moth to a flame - The Weeknd". 
 
-![Executando algoritimo](image.png)
+Coloque o fone e aperte o play!!
+>>>>>>> 3a14ade570e1b4c68557f1dcee278612ce8120eb
