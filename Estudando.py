@@ -1,14 +1,17 @@
-#############################################################################
+#######################################DESAFIOS!!###########################################
 
+#Seu nome tem...
 
-#Tocando musica!!!
+nome = str(input('Digite seu nome completo: '))
 
-import pygame
+print('Analisando seu nome...')
 
-pygame.init()
+print('Seu nome em maiusculas é {} '.format(nome.upper()))
+print('Seu nome em minusculas é {}' .format(nome.lower()))
+print('Seu nome tem {} letras' .format(len(nome) - nome.count(' ')))
 
-pygame.mixer.music.load('Swedish House Mafia and The Weeknd - Moth To A Flame (Official Video).mp3')
+separar = nome.split()
+print('Seu primeiro nome é {} e ele tem {} letras' .format(separar[0], len(separar[0])))
 
-pygame.mixer.music
 
 

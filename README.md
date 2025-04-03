@@ -2,8 +2,8 @@
 Estudando Python
 
 
-Tocando uma musica??: Neste codigo utilizamos a biblioteca do pygame, utilizada para criaçao de games... para usar essa biblioteca é necessario instalar ela em seu dispositivo. O algoritimo toca a musica "Moth to a flame - The Weeknd". 
+Desafios curso em video.
 
-Coloque o fone e aperte o play!!
+Seu nome tem...: Neste desafio o usuario digita o seu nome completo e é exbido no terminal o nome de forma maiuscula logo em seguida é exibida em minuscula, quantidade de letras, primeiro nome e a quantidade de letras do primeiro nome. Nesse exercicio utilizei os metodos 'upper' e 'lower' para o tamanho do texto, 'count' para contagem de caracteres.
 
 
